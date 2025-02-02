@@ -8,6 +8,6 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger Deployment
+      - name: Trigger Deployment process
         run: |
           curl -X POST https://7fmprarasg.execute-api.us-west-1.amazonaws.com/prod
